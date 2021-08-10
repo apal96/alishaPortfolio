@@ -1,5 +1,7 @@
-header{
-
+body{
+    font-family: Roboto;
+}
+header, footer{
 justify-content: center;
 text-align: center;
 font-family: Roboto;
@@ -7,10 +9,10 @@ font-style: normal;
 font-weight: 300;
 font-size: 18px;
 line-height: 21px;
-margin: 0;
+margin: 10;
+padding: 10;
 display: block;
 /* identical to box height */
-
 color: #C4C4C4;
 }
 nav{
@@ -73,3 +75,9 @@ text-align: center;
 
 color: #00A3FF;
 }
+footer{
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
