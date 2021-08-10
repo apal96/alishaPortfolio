@@ -1,0 +1,78 @@
+h1 {
+    position: absolute;
+width: 78px;
+height: 21px;
+left: 680px;
+top: 32px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #C4C4C4;
+}
+#about-me, #work,#contact-me,#resume{
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+#about-me{
+position: absolute;
+width: 61px;
+height: 21px;
+left: 519px;
+top: 97px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+color: #1C924B;
+}
+#work,#contact-me,#resume{
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* identical to box height */
+
+
+color: #000000;
+
+}
+#work{
+
+    position: absolute;
+    width: 60px;
+    height: 21px;
+    left: 633px;
+    top: 97px;
+    
+}
+#contact-me{
+position: absolute;
+width: 60px;
+height: 21px;
+left: 747px;
+top: 97px;
+}
+
+#resume{
+position: absolute;
+width: 60px;
+height: 21px;
+left: 861px;
+top: 97px;
+}
