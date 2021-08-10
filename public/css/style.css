@@ -1,19 +1,32 @@
-h1 {
-    position: absolute;
-width: 78px;
-height: 21px;
-left: 680px;
-top: 32px;
+header{
 
+justify-content: center;
+text-align: center;
 font-family: Roboto;
 font-style: normal;
 font-weight: 300;
 font-size: 18px;
 line-height: 21px;
+margin: 0;
+display: block;
 /* identical to box height */
 
 color: #C4C4C4;
 }
+nav{
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+img {
+    border-radius: 50%;
+    justify-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+  
+  }
 #about-me, #work,#contact-me,#resume{
     background-color: Transparent;
     background-repeat:no-repeat;
@@ -24,11 +37,6 @@ color: #C4C4C4;
 }
 
 #about-me{
-position: absolute;
-width: 61px;
-height: 21px;
-left: 519px;
-top: 97px;
 
 font-family: Roboto;
 font-style: normal;
@@ -52,27 +60,16 @@ line-height: 21px;
 color: #000000;
 
 }
-#work{
+#bio{
+    text-align: center;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 26px;
+/* or 108% */
 
-    position: absolute;
-    width: 60px;
-    height: 21px;
-    left: 633px;
-    top: 97px;
-    
-}
-#contact-me{
-position: absolute;
-width: 60px;
-height: 21px;
-left: 747px;
-top: 97px;
-}
+text-align: center;
 
-#resume{
-position: absolute;
-width: 60px;
-height: 21px;
-left: 861px;
-top: 97px;
+color: #00A3FF;
 }
