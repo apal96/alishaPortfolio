@@ -18,7 +18,7 @@ nav{
     justify-content: flex-start;
     text-decoration: none;
 }
-img {
+#profilepic {
     border-radius: 50%;
     justify-content: center;
     display: block;
