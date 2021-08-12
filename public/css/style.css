@@ -8,7 +8,7 @@ body{
 .footer-nav{
     background-color: rgba(204, 234, 244, 0.708);
 }
-header, footer{
+header{
 justify-content: center;
 text-align: center;
 font-family: Roboto;
